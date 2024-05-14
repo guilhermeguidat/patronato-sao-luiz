@@ -1,0 +1,740 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./src/images/logo.png">
+    <title>Formulario Jovem Aprendiz</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <link rel="stylesheet" href="./src/styles/banner.css">
+    <link rel="stylesheet" href="./src/styles/header.css">
+    <link rel="stylesheet" href="./src/styles/content.css">
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+</head>
+
+<body>
+    <header class="bg-white rounded m-2 fw-medium area-1">
+        <nav class="navbar navbar-expand-lg container">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="./index.html">
+                    <img src="./src/images/logo.png" alt="Logo" width="100" height="100"
+                        class="d-inline-block align-text-top">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                <p class="fw-medium">JOVEM APRENDIZ <i
+                                        class="bi bi-chevron-down align-middle text-danger"
+                                        style="font-size: 2rem;"></i></p>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item bi bi-person-vcard" href="./contratarJovemAprendiz.html">
+                                        COMO CONTRATAR UM JOVEM APRENDIZ</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item bi bi-person-arms-up" href="./sejaUmJovemAprendiz.html">
+                                        SEJA UM JOVEM APRENDIZ</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item bi bi-file-earmark-person" href="./formulario.html">
+                                        FORMULARIO JOVEM APRENDIZ</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                <p class="">ASSISTENCIA SOCIAL <i class="bi bi-chevron-down align-middle text-success"
+                                        style="font-size: 2rem;"></i></p>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item bi bi-hand-thumbs-up" href="./vocePodeAjudar.html"> VOCÊ
+                                        PODE AJUDAR</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">2</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                <p class="">SOBRE NOS <i class="bi bi-chevron-down align-middle text-primary"
+                                        style="font-size: 2rem;"></i></p>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item bi bi-people" href="./quemSomos.html"> QUEM SOMOS</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item bi bi-book-half" href="./nossaHistoria.html"> NOSSA
+                                        HISTÓRIA</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <a class="bi bi-instagram banner-botao-vermelho mx-3" style="font-size: 2rem;"
+                        href="https://www.instagram.com/patronatosaoluiz/"></a>
+                    <a class="bi bi-facebook banner-botao-azul" style="font-size: 2rem;"
+                        href="https://www.facebook.com/patronatosaoluiz/?locale=pt_BR"></a>
+                    <a class="bi bi-whatsapp banner-botao-verde mx-3" style="font-size: 2rem;"
+                        href="https://api.whatsapp.com/send?phone=5537998467427"></a>
+                    <a class="bi bi-youtube banner-botao-vermelho mt-1" style="font-size: 2.5rem;"
+                        href="https://www.youtube.com/channel/UC_o2Sa24QDNYTC4AKpc5olg"></a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <div class="container">
+            <div class="plano-fundo-vermelho rounded-4 area-2 text-light shadow">
+                <div class="d-flex align-items-center">
+                    <div class="col-12 col-lg-4">
+                        <div class="px-md-4 p-3 banner-fonte">
+                            <h1 class="fs-1 mb-3 fw-bold">Cadastro para o Jovem Aprendiz</h1>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-8 d-lg-block d-none">
+                        <img src="./src/images/CADASTRO.jpg" class="img-fluid rounded-end-4">
+                    </div>
+                </div>
+            </div>
+            <div class="my-5 text-center area-3">
+                <p class="fs-1 fw-semibold mb-2"><span class="banner-botao-verde fw-bold">Assista o vídeo</span> abaixo
+                    com atenção para saber como fazer
+                    seu
+                    <span class="banner-botao-vermelho fw-bold">cadastro</span> para o <span
+                        class="banner-botao-azul fw-bold">Jovem Aprendiz</span>
+                </p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/c8WbMO6MhRY"
+                    title="Associação de Assistência aos Menores de Formiga" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="my-3"></iframe>
+                <p class=" fs-5">Agora que você entendeu como fazer seu cadastro, separe todos os documentos,
+                    scaneie eles, coloque
+                    todos
+                    em
+                    um compactador de arquivos (rar ou zip), clique em anexar arquivos e insira seus documentos.</p>
+            </div>
+
+            <div class="mb-5 area-4">
+                <p class="fs-4 fw-semibold">DOCUMENTOS NECESSÁRIOS:</p>
+                <p class="fs-5 fw-semibold">Carteira de Identidade e CPF, Carteira de trabalho, declaração escolar
+                    atual,
+                    comprovante de endereço,
+                    comprovante de renda, 1 foto 3×4, Carteira de Identidade e CPF do Responsável (se for menor).</p>
+            </div>
+
+            <div class="area-5">
+                <form action="https://formsubmit.co/gguilhermecontato1@gmail.com" method="POST"
+                    enctype="multipart/form-data">
+
+                    <p class="fs-2 fw-semibold">FICHA DE INSCRIÇÃO - <span class="banner-botao-vermelho">PROGRAMA JOVEM
+                            APRENDIZ</span></p>
+
+                    <div class="mb-3">
+                        <label class="form-label">Nome*</label>
+                        <input type="text" name="nome" placeholder="" required class="form-control">
+                    </div>
+
+                    <div class="d-flex mb-3">
+                        <div>
+                            <label class="form-label">Data de nascimento*</label>
+                            <input type="date" name="data de nascimento" placeholder="Digite sua data de nascimento"
+                                required class="form-control">
+                        </div>
+                        <div class="mx-5">
+                            <label class="form-label">Idade (anos)*</label>
+                            <input type="number" name="idade" placeholder="" required min="15" max="22"
+                                class="form-control">
+                        </div>
+                        <div class="">
+                            <label class="form-label">Sexo*</label>
+                            <div class="d-flex">
+                                <div>
+                                    <input type="radio" name="sexo" id="masculino" class="form-check-input" value="Masculino">
+                                    <label for="masculino">Masculino</label><br>
+                                </div>
+
+                                <div class="ms-3">
+                                    <input type="radio" name="sexo" id="feminino" class="form-check-input" value="Feminino">
+                                    <label for="feminino">Feminino</label><br>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label">Telefone*</label>
+                        <input type="number" name="telefone" placeholder="" required class="form-control">
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label">Endereço*</label>
+                        <input type="text" name="endereco" placeholder="" required class="form-control">
+                    </div>
+
+                    <div class="mb-3 d-flex">
+                        <div>
+                            <label class="form-label">Bairro*</label>
+                            <input type="text" name="bairro" placeholder="" required class="form-control">
+                        </div>
+                        <div class="mx-3">
+                            <label class="form-label">Cidade*</label>
+                            <input type="text" name="cidade" placeholder="" required class="form-control">
+                        </div>
+                        <div>
+                            <label class="form-label">Estado*</label>
+                            <input type="text" name="estado" placeholder="" required class="form-control">
+                        </div>
+                    </div>
+
+                    <div class="d-flex mb-3">
+                        <div>
+                            <label class="form-label">Número de Identidade (RG)*</label>
+                            <input type="number" name="RG" placeholder="MG-99.999.999" required class="form-control">
+                        </div>
+                        <div class="mx-3">
+                            <label class="form-label">Órgão Expelidor*</label>
+                            <input type="text" name="orgao expelidor" placeholder="" required class="form-control">
+                        </div>
+                        <div>
+                            <label class="form-label">Data de Expedição*</label>
+                            <input type="date" name="data expedicao" placeholder="" required class="form-control">
+                        </div>
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label">CPF*</label>
+                        <input type="number" name="CPF" placeholder="999.999.999-99" required class="form-control">
+                    </div>
+
+                    <div class="d-flex mb-3">
+                        <div>
+                            <label class="form-label">Série Cart. Trab.*</label>
+                            <input type="number" name="serie cart. trab." placeholder="" required class="form-control">
+                        </div>
+                        <div class="mx-3">
+                            <label class="form-label">Cart. Trabalho Nº*</label>
+                            <input type="number" name="numero carteira de trabalho" placeholder="" required
+                                class="form-control">
+                        </div>
+                        <div>
+                            <label class="form-label">Nº Pis*</label>
+                            <input type="number" name="numero pis" placeholder="" required class="form-control">
+                        </div>
+                    </div>
+
+                    <div class="d-flex">
+                        <div>
+                            <label class="form-label">Estado Civil*</label>
+                            <input type="text" name="estado civil" placeholder="" required class="form-control">
+                        </div>
+                        <div class="ms-3">
+                            <div class="">
+                                <label class="form-label">Possui Filhos*</label>
+                                <div class="d-flex">
+                                    <div>
+                                        <input type="radio" name="filho" id="sim" class="form-check-input" value="Possui filho">
+                                        <label for="sim">Sim</label><br>
+                                    </div>
+
+                                    <div class="ms-3">
+                                        <input type="radio" name="filho" id="sim" class="form-check-input" value="Não possui filho">
+                                        <label for="nao">Não</label><br>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <p class="fs-3 mt-5 mb-3 fw-semibold">Situação Financeira/Econômica</p>
+
+                    <div class="mb-3">
+                        <label class="form-label">Nome do pai*</label>
+                        <input type="text" name="nome do pai" placeholder="" required class="form-control">
+                    </div>
+
+                    <div class="d-flex mb-3">
+                        <div>
+                            <label class="form-label">Profissão*</label>
+                            <input type="text" name="profissao" placeholder="" required class="form-control">
+                        </div>
+                        <div>
+                            <div class="mx-3">
+                                <div class="">
+                                    <label class="form-label">Trabalha*</label>
+                                    <div class="d-flex">
+                                        <div>
+                                            <input type="radio" name="trabalhaPai" id="sim" class="form-check-input" value="Trabalha">
+                                            <label for="sim">Sim</label><br>
+                                        </div>
+
+                                        <div class="ms-3">
+                                            <input type="radio" name="trabalhaPai" id="nao" class="form-check-input" value="Não trabalha">
+                                            <label for="nao">Não</label><br>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <label class="form-label">Renda</label>
+                            <input type="number" name="renda" placeholder="R$" class="form-control">
+                        </div>
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label">Nome da Empresa*</label>
+                        <input type="text" name="nome da empresa" placeholder="" required class="form-control">
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label">Nome da Mãe*</label>
+                        <input type="text" name="nome da mae" placeholder="" required class="form-control">
+                    </div>
+
+                    <div class="d-flex mb-3">
+                        <div>
+                            <label class="form-label">Profissão*</label>
+                            <input type="text" name="profissao" placeholder="" required class="form-control">
+                        </div>
+                        <div>
+                            <div class="mx-3">
+                                <div class="">
+                                    <label class="form-label">Trabalha*</label>
+                                    <div class="d-flex">
+                                        <div>
+                                            <input type="radio" name="trabalhaMae" id="sim" class="form-check-input" value="Mãe trabalha">
+                                            <label for="sim">Sim</label><br>
+                                        </div>
+
+                                        <div class="ms-3">
+                                            <input type="radio" name="trabalhaMae" id="nao" class="form-check-input" value="Mãe não trabalha">
+                                            <label for="nao">Não</label><br>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <label class="form-label">Renda</label>
+                            <input type="number" name="renda" placeholder="R$" class="form-control">
+                        </div>
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label">Nome da Empresa*</label>
+                        <input type="text" name="nome da empresa" placeholder="" required class="form-control">
+                    </div>
+
+                    <div class="mb-3">
+                        <div class="">
+                            <div class="">
+                                <label class="form-label">Possui Pais Separados*</label>
+                                <div class="d-flex">
+                                    <div>
+                                        <input type="radio" name="PaiSeparado" id="sim" class="form-check-input" value="Possui pais separados">
+                                        <label for="sim">Sim</label><br>
+                                    </div>
+
+                                    <div class="ms-3">
+                                        <input type="radio" name="PaiSeparado" id="nao" class="form-check-input" value="Não possui pais separados">
+                                        <label for="nao">Não</label><br>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label">Nome do Responsável Legal, em caso de não ser os pais</label>
+                        <input type="text" name="nome responsavel legal caso nao ser os pais" placeholder=""
+                            class="form-control">
+                    </div>
+
+                    <div class="d-flex mb-3">
+                        <div>
+                            <label class="form-label">Profissão</label>
+                            <input type="text" name="profissao" placeholder="" class="form-control">
+                        </div>
+                        <div>
+                            <div class="mx-3">
+                                <div class="">
+                                    <label class="form-label">Trabalha</label>
+                                    <div class="d-flex">
+                                        <div>
+                                            <input type="radio" name="trabalhaRespLegal" id="sim"
+                                                class="form-check-input" value="Responsável legal trabalha">
+                                            <label for="sim">Sim</label><br>
+                                        </div>
+
+                                        <div class="ms-3">
+                                            <input type="radio" name="trabalhaRespLegal" id="nao"
+                                                class="form-check-input" value="Responsável legal não trabalha">
+                                            <label for="nao">Não</label><br>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <label class="form-label">Renda</label>
+                            <input type="number" name="renda" placeholder="R$" class="form-control">
+                        </div>
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label">Nome da Empresa*</label>
+                        <input type="text" name="nome da empresa" placeholder="" class="form-control">
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label">Valor total da renda Familiar*</label>
+                        <input type="number" name="valor total renda familiar" placeholder="" required
+                            class="form-control">
+                    </div>
+
+                    <p class="fs-3 mt-5 mb-3 fw-semibold">Situação Educacional</p>
+
+                    <div class="mb-3">
+                        <label class="form-label">Grau de Escolaridade*</label>
+                        <input type="text" name="grau escolaridade" placeholder="" required class="form-control">
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label">Escola/ Universidade em que estuda*</label>
+                        <input type="text" name="escola/ universidade" placeholder="" required class="form-control">
+                    </div>
+
+                    <div class="d-flex">
+                        <div class="mb-3">
+                            <label class="form-label">Série/ período*</label>
+                            <input type="text" name="serie/ periodo" placeholder="" required class="form-control">
+                        </div>
+                        <div class="mb-3 ms-3">
+                            <label class="form-label">Horário em que estuda*</label>
+                            <input type="text" name="horario que estuda" placeholder="" required class="form-control">
+                        </div>
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label">Possui cursos complentares? Quais?*</label>
+                        <input type="text" name="cursos complementares" placeholder="" required class="form-control">
+                    </div>
+
+                    <p class="fs-3 mt-5 mb-3 fw-semibold">Dados Familíares</p>
+
+                    <div class="mb-3">
+                        <label class="form-label">Mora com*</label>
+                        <div class="d-flex">
+                            <div>
+                                <input type="radio" name="mora com" id="pai e mae" class="form-check-input" value="Mora com pai e mãe">
+                                <label for="pai e mae">Pai e Mãe</label><br>
+                            </div>
+
+                            <div class="ms-3">
+                                <input type="radio" name="mora com" id="pai" class="form-check-input" value="Mora com o pai">
+                                <label for="pai">Pai</label><br>
+                            </div>
+
+                            <div class="ms-3">
+                                <input type="radio" name="mora com" id="mae" class="form-check-input" value="Mora com a mãe">
+                                <label for="mae">Mãe</label><br>
+                            </div>
+
+                            <div class="ms-3">
+                                <input type="radio" name="mora com" id="outros" class="form-check-input" value="Mora com outros">
+                                <label for="outros">Outros</label><br>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mb-3">
+                        <div class="mb-3">
+                            <label class="form-label">Mora em Casa Própia?*</label>
+                            <div class="d-flex">
+                                <div>
+                                    <input type="radio" name="mora em casa propria" id="sim" class="form-check-input" value="Mora em casa propria">
+                                    <label for="sim">Sim</label><br>
+                                </div>
+
+                                <div class="ms-3">
+                                    <input type="radio" name="mora em casa propria" id="nao" class="form-check-input" value="Não mora em casa propria">
+                                    <label for="nao">Não</label><br>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="mb-3">
+                                <label class="form-label">Valor do Aluguel ou Prestação (se houver)</label>
+                                <input type="number" name="cursos complementares" placeholder="R$" class="form-control">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label">Sempre estudou em Colégio Público?*</label>
+                        <div class="d-flex">
+                            <div>
+                                <input type="radio" name="sempre estudou em colegio publico" id="sim"
+                                    class="form-check-input" value="Sempre estudou em colegio publico">
+                                <label for="sim">Sim</label><br>
+                            </div>
+
+                            <div class="ms-3">
+                                <input type="radio" name="sempre estudou em colegio publico" id="nao"
+                                    class="form-check-input" value="Não estudou sempre em escola publica">
+                                <label for="nao">Não</label><br>
+                            </div>
+                        </div>
+                    </div>
+
+                    <p class="fs-3 mt-5 mb-3 fw-semibold">Outras Informações</p>
+
+                    <div class="mb-3 d-flex">
+                        <div>
+                            <label class="form-label">Possui Experiência Profissional*</label>
+                            <div class="d-flex">
+                                <div>
+                                    <input type="radio" name="possui experiencia profissional" id="sim"
+                                        class="form-check-input" value="Possui experiencia">
+                                    <label for="sim">Sim</label><br>
+                                </div>
+
+                                <div class="ms-3">
+                                    <input type="radio" name="possui experiencia profissional" id="nao"
+                                        class="form-check-input" value="Não possui experiencia">
+                                    <label for="nao">Não</label><br>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="ms-3">
+                            <label class="form-label">Com Carteira Assinada?*</label>
+                            <div class="d-flex">
+                                <div>
+                                    <input type="radio" name="com carteira assinada" id="sim" class="form-check-input" value="Experiencia com carteira assinada">
+                                    <label for="sim">Sim</label><br>
+                                </div>
+
+                                <div class="ms-3">
+                                    <input type="radio" name="com carteira assinada" id="nao" class="form-check-input" value="Experiencia sem carteira assinada">
+                                    <label for="naor">Não</label><br>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="d-flex mb-3">
+                        <div class="d-flex">
+                            <div class="">
+                                <label class="form-label">Data de admissão*</label>
+                                <input type="date" name="data admissao" placeholder="" required class="form-control">
+                            </div>
+                        </div>
+                        <div class="d-flex ms-3">
+                            <div class="">
+                                <label class="form-label">Data de demissão*</label>
+                                <input type="date" name="data demissao" placeholder="" required class="form-control">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mb-3 d-flex">
+                        <div>
+                            <label class="form-label">Possui Alergias a Alimentos ou a Medicamentos?*</label>
+                            <div class="d-flex">
+                                <div>
+                                    <input type="radio" name="possui alergia a alimentos ou medicamentos" id="sim"
+                                        class="form-check-input" value="Possui alergia a alimentos ou medicamentos">
+                                    <label for="sim">Sim</label><br>
+                                </div>
+
+                                <div class="ms-3">
+                                    <input type="radio" name="possui experiencia profissional" id="nao"
+                                        class="form-check-input" value="Não possui alergia a alimentos ou medicamentos">
+                                    <label for="nao">Não</label><br>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="ms-3">
+                            <label class="form-label">Toma Algum Medicamento Controlado?*</label>
+                            <div class="d-flex">
+                                <div>
+                                    <input type="radio" name="toma medicamento controlado" id="sim"
+                                        class="form-check-input" value="Toma medicamento controlado">
+                                    <label for="sim">Sim</label><br>
+                                </div>
+
+                                <div class="ms-3">
+                                    <input type="radio" name="toma medicamento controlado" id="nao"
+                                        class="form-check-input" value="Não toma medicamento controlado">
+                                    <label for="nao">Não</label><br>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <p class="fs-3 mt-5 mb-3 fw-semibold">Sobre Você</p>
+
+                    <div class="mb-3">
+                        <label class="form-label">Fale sobre si*</label>
+                        <input type="text" name="fale sobre si" placeholder="" required class="form-control">
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label">Quais são seus objetivos a curto prazo? E a longo prazo?*</label>
+                        <input type="text" name="objetivos" placeholder="" required class="form-control">
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label">O que levou a se cadastrar no Programa Jovem Aprendiz?*</label>
+                        <input type="text" name="O que levou a se cadastrar no Programa" placeholder="" required
+                            class="form-control">
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label">Qual foi a decisão mais difícil que tomou até hoje?*</label>
+                        <input type="text" name="Qual foi a decisao mais dificil que tomou" placeholder="" required
+                            class="form-control">
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label">Você é capaz de trabalhar com prazos definidos?*</label>
+                        <input type="text" name="voce e capaz de trabalhar com prazos" placeholder="" required
+                            class="form-control">
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label">Dê-nos um motivo para escolher você em vez de outros
+                            candidatos*</label>
+                        <input type="text" name="motivo para escolher voce" placeholder="" required
+                            class="form-control">
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label">O que você faz no seu tempo livre?*</label>
+                        <input type="text" name="o que voce faz no seu tempo livre" placeholder="" required
+                            class="form-control">
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label">Quais são suas maiores qualidades?*</label>
+                        <input type="text" name="maiores qualidades" placeholder="" required class="form-control">
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label">Quais são seus pontos negativos?*</label>
+                        <input type="text" name="pontos negativos" placeholder="" required class="form-control">
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label">Até hoje, quais foram suas maiores conquistas?*</label>
+                        <input type="text" name="conquistas" placeholder="" required class="form-control">
+                    </div>
+
+                    <div class="my-5">
+                        <label class="form-label">Marcação dessa declaração é uma condição obrigatória para o envio do
+                            cadastro.*</label>
+                            <div>
+                                <input type="radio" name="aceitar termos" id="aceitar"
+                                    class="form-check-input" required>
+                                <label for="aceitar">Declaro a veracidade das informações prestadas e estou ciente de que o
+                                    envio incompleto dos documentos impossibilitará a validação da
+                                    inscrição.</label><br>
+                            </div>
+                    </div>
+
+
+                    <div class="text-center my-5">
+                        <button type="submit" class="btn btn-danger btn-lg px-5 rounded-5 text-light shadow mb-5">Enviar
+                            formulario</button>
+                    </div>
+
+                    <input type="hidden" name="_subject" value="Novo Contato!">
+                    <input type="text" name="_honey" style="display:none">
+                    <input type="hidden" name="_captcha" value="false">
+                </form>
+            </div>
+        </div>
+
+    </main>
+
+    <footer class="footer container plano-fundo-vermelho text-light rounded-top-4 text-xl-start text-center area-10 ">
+        <div class="footer-inner d-sm-flex justify-content-center p-5">
+            <div class="footer-column">
+                <h3 class="fs-2 fw-semibold">Jovem Aprendiz</h3>
+                <ul class="list-unstyled">
+                    <li><a href="./contratarJovemAprendiz.html" class="text-decoration-none text-reset fs-5">Como
+                            contratar</a></li>
+                    <li><a href="./sejaUmJovemAprendiz.html" class="text-decoration-none text-reset fs-5">Seja um Jovem
+                            Aprendiz</a></li>
+                    <li><a href="./formulario.html" class="text-decoration-none text-reset fs-5">Formulario Jovem
+                            Aprendiz</a></li>
+                </ul>
+            </div>
+            <div class="footer-column mx-xl-5">
+                <h3 class="fs-2 fw-semibold">Assistência social</h3>
+                <ul class="list-unstyled">
+                    <li><a href="./vocePodeAjudar.html" class="text-decoration-none text-reset fs-5">Você pode
+                            ajudar</a></li>
+                    <li><a href="#" class="text-decoration-none text-reset fs-5">Parceiros</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3 class="fs-2 fw-semibold">Sobre nós</h3>
+                <ul class="list-unstyled">
+                    <li><a href="./quemSomos.html" class="text-decoration-none text-reset fs-5">Quem somos</a></li>
+                    <li><a href="./nossaHistoria.html" class="text-decoration-none text-reset fs-5">Nossa história</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-column mx-xl-5">
+                <h3 class="fs-2 fw-semibold">Contato</h3>
+                <ul class="list-unstyled">
+                    <li><a href="tel:(37) 3321-2328" class="text-decoration-none text-reset bi bi-telephone fs-5"> (37)
+                            3321-2328</a></li>
+                    <li><a href="https://api.whatsapp.com/send?phone=5537998467427"
+                            class="text-decoration-none text-reset bi bi-whatsapp fs-5"> (37) 998467427</a></li>
+                    <li><a href="https://maps.app.goo.gl/pYsyWc8Vmbn24CX76"
+                            class="text-decoration-none text-reset bi bi-geo-alt fs-5"> Rua José Cecílio s/n<br>Bairro
+                            São Luiz<br>Formiga/MG</a></li>
+                </ul>
+            </div>
+            <div class="">
+                <a href="./index.html">
+                    <img src="./src/images/logo.png" class="img-fluid" alt="Logo" width="150" height="150">
+                </a>
+            </div>
+        </div>
+        <div class="border-top"></div>
+        <div class="footer-bottom text-center p-1">
+            <p>&copy; 2024 Patrona São Luiz. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+    <script src="./src/js/script.js"></script>
+</body>
+
+</html>

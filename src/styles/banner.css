@@ -1,0 +1,9 @@
+.fullscreen {
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.titulo-banner {
+    font-size: 5em;
+}

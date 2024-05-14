@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+.plano-fundo-verde {
+    background-color: #4fff89;
+}
+
+.banner-botao-verde {
+    color: #4fff89;
+}
+
+.plano-fundo-azul {
+    background-color: #00afef;
+}
+
+.banner-botao-azul {
+    color: #00afef;
+}
+
+.plano-fundo-vermelho {
+    background-color: #ed3237;
+}
+
+.banner-botao-vermelho {
+    color: #ed3237;
+}
+
+.plano-fundo-roxo {
+    background-color: #342b4b;
+}
+
+.banner-botao-roxo {
+    color: #342b4b;
+}
+
+.fundo-parceiros {
+    background-color: #f6f6f6;
+}
+
+@media (max-width: 767px) {
+    .plano-fundo-celular-1 {
+        background-image: url('/src/images/1.png');
+        background-size: cover;
+    }
+
+    .plano-fundo-celular-2 {
+        background-image: url('/src/images/2.png');
+        background-size: cover;
+    }
+
+    .plano-fundo-celular-3 {
+        background-image: url('/src/images/3.png');
+        background-size: cover;
+    }
+
+    .plano-fundo-celular-4 {
+        background-image: url('/src/images/4.png');
+        background-size: cover;
+    }
+}
+
+.area-1,
+.area-2 {
+    visibility: hidden;
+}
