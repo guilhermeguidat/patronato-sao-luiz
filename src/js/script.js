@@ -1,4 +1,5 @@
 window.sr = ScrollReveal({ reset: true });
+ScrollReveal().reveal('.all', { viewFactor: 1.0 });
 
 sr.reveal('.area-1');
 
