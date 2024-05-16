@@ -123,10 +123,14 @@
                     <span class="banner-botao-vermelho fw-bold">cadastro</span> para o <span
                         class="banner-botao-azul fw-bold">Jovem Aprendiz</span>
                 </p>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/c8WbMO6MhRY"
-                    title="Associação de Assistência aos Menores de Formiga" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="my-3"></iframe>
+                <div class="d-flex justify-content-center my-3">
+                    <div class="ratio ratio-16x9" style="max-width: 560px;">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/c8WbMO6MhRY"
+                            title="Associação de Assistência aos Menores de Formiga" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="rounded"></iframe>
+                    </div>
+                </div>
                 <p class=" fs-5">Agora que você entendeu como fazer seu cadastro, separe todos os documentos,
                     scaneie eles, coloque
                     todos
@@ -169,12 +173,14 @@
                             <label class="form-label">Sexo*</label>
                             <div class="d-flex">
                                 <div>
-                                    <input type="radio" name="sexo" id="masculino" class="form-check-input" value="Masculino">
+                                    <input type="radio" name="sexo" id="masculino" class="form-check-input"
+                                        value="Masculino">
                                     <label for="masculino">Masculino</label><br>
                                 </div>
 
                                 <div class="ms-3">
-                                    <input type="radio" name="sexo" id="feminino" class="form-check-input" value="Feminino">
+                                    <input type="radio" name="sexo" id="feminino" class="form-check-input"
+                                        value="Feminino">
                                     <label for="feminino">Feminino</label><br>
                                 </div>
                             </div>
@@ -252,12 +258,14 @@
                                 <label class="form-label">Possui Filhos*</label>
                                 <div class="d-flex">
                                     <div>
-                                        <input type="radio" name="filho" id="sim" class="form-check-input" value="Possui filho">
+                                        <input type="radio" name="filho" id="sim" class="form-check-input"
+                                            value="Possui filho">
                                         <label for="sim">Sim</label><br>
                                     </div>
 
                                     <div class="ms-3">
-                                        <input type="radio" name="filho" id="sim" class="form-check-input" value="Não possui filho">
+                                        <input type="radio" name="filho" id="sim" class="form-check-input"
+                                            value="Não possui filho">
                                         <label for="nao">Não</label><br>
                                     </div>
                                 </div>
@@ -283,12 +291,14 @@
                                     <label class="form-label">Trabalha*</label>
                                     <div class="d-flex">
                                         <div>
-                                            <input type="radio" name="trabalhaPai" id="sim" class="form-check-input" value="Trabalha">
+                                            <input type="radio" name="trabalhaPai" id="sim" class="form-check-input"
+                                                value="Trabalha">
                                             <label for="sim">Sim</label><br>
                                         </div>
 
                                         <div class="ms-3">
-                                            <input type="radio" name="trabalhaPai" id="nao" class="form-check-input" value="Não trabalha">
+                                            <input type="radio" name="trabalhaPai" id="nao" class="form-check-input"
+                                                value="Não trabalha">
                                             <label for="nao">Não</label><br>
                                         </div>
                                     </div>
@@ -322,12 +332,14 @@
                                     <label class="form-label">Trabalha*</label>
                                     <div class="d-flex">
                                         <div>
-                                            <input type="radio" name="trabalhaMae" id="sim" class="form-check-input" value="Mãe trabalha">
+                                            <input type="radio" name="trabalhaMae" id="sim" class="form-check-input"
+                                                value="Mãe trabalha">
                                             <label for="sim">Sim</label><br>
                                         </div>
 
                                         <div class="ms-3">
-                                            <input type="radio" name="trabalhaMae" id="nao" class="form-check-input" value="Mãe não trabalha">
+                                            <input type="radio" name="trabalhaMae" id="nao" class="form-check-input"
+                                                value="Mãe não trabalha">
                                             <label for="nao">Não</label><br>
                                         </div>
                                     </div>
@@ -351,12 +363,14 @@
                                 <label class="form-label">Possui Pais Separados*</label>
                                 <div class="d-flex">
                                     <div>
-                                        <input type="radio" name="PaiSeparado" id="sim" class="form-check-input" value="Possui pais separados">
+                                        <input type="radio" name="PaiSeparado" id="sim" class="form-check-input"
+                                            value="Possui pais separados">
                                         <label for="sim">Sim</label><br>
                                     </div>
 
                                     <div class="ms-3">
-                                        <input type="radio" name="PaiSeparado" id="nao" class="form-check-input" value="Não possui pais separados">
+                                        <input type="radio" name="PaiSeparado" id="nao" class="form-check-input"
+                                            value="Não possui pais separados">
                                         <label for="nao">Não</label><br>
                                     </div>
                                 </div>
@@ -437,7 +451,8 @@
 
                     <div class="mb-3">
                         <label class="form-label">Possui cursos complentares? Quais?*</label>
-                        <input type="text" name="possui cursos complementares" placeholder="" required class="form-control">
+                        <input type="text" name="possui cursos complementares" placeholder="" required
+                            class="form-control">
                     </div>
 
                     <p class="fs-3 mt-5 mb-3 fw-semibold">Dados Familíares</p>
@@ -446,22 +461,26 @@
                         <label class="form-label">Mora com*</label>
                         <div class="d-flex">
                             <div>
-                                <input type="radio" name="mora com" id="pai e mae" class="form-check-input" value="Mora com pai e mãe">
+                                <input type="radio" name="mora com" id="pai e mae" class="form-check-input"
+                                    value="Mora com pai e mãe">
                                 <label for="pai e mae">Pai e Mãe</label><br>
                             </div>
 
                             <div class="ms-3">
-                                <input type="radio" name="mora com" id="pai" class="form-check-input" value="Mora com o pai">
+                                <input type="radio" name="mora com" id="pai" class="form-check-input"
+                                    value="Mora com o pai">
                                 <label for="pai">Pai</label><br>
                             </div>
 
                             <div class="ms-3">
-                                <input type="radio" name="mora com" id="mae" class="form-check-input" value="Mora com a mãe">
+                                <input type="radio" name="mora com" id="mae" class="form-check-input"
+                                    value="Mora com a mãe">
                                 <label for="mae">Mãe</label><br>
                             </div>
 
                             <div class="ms-3">
-                                <input type="radio" name="mora com" id="outros" class="form-check-input" value="Mora com outros">
+                                <input type="radio" name="mora com" id="outros" class="form-check-input"
+                                    value="Mora com outros">
                                 <label for="outros">Outros</label><br>
                             </div>
                         </div>
@@ -472,12 +491,14 @@
                             <label class="form-label">Mora em Casa Própia?*</label>
                             <div class="d-flex">
                                 <div>
-                                    <input type="radio" name="mora em casa propria" id="sim" class="form-check-input" value="Mora em casa propria">
+                                    <input type="radio" name="mora em casa propria" id="sim" class="form-check-input"
+                                        value="Mora em casa propria">
                                     <label for="sim">Sim</label><br>
                                 </div>
 
                                 <div class="ms-3">
-                                    <input type="radio" name="mora em casa propria" id="nao" class="form-check-input" value="Não mora em casa propria">
+                                    <input type="radio" name="mora em casa propria" id="nao" class="form-check-input"
+                                        value="Não mora em casa propria">
                                     <label for="nao">Não</label><br>
                                 </div>
                             </div>
@@ -530,12 +551,14 @@
                             <label class="form-label">Com Carteira Assinada?*</label>
                             <div class="d-flex">
                                 <div>
-                                    <input type="radio" name="com carteira assinada" id="sim" class="form-check-input" value="Experiencia com carteira assinada">
+                                    <input type="radio" name="com carteira assinada" id="sim" class="form-check-input"
+                                        value="Experiencia com carteira assinada">
                                     <label for="sim">Sim</label><br>
                                 </div>
 
                                 <div class="ms-3">
-                                    <input type="radio" name="com carteira assinada" id="nao" class="form-check-input" value="Experiencia sem carteira assinada">
+                                    <input type="radio" name="com carteira assinada" id="nao" class="form-check-input"
+                                        value="Experiencia sem carteira assinada">
                                     <label for="naor">Não</label><br>
                                 </div>
                             </div>
@@ -653,13 +676,12 @@
                     <div class="my-5">
                         <label class="form-label">Marcação dessa declaração é uma condição obrigatória para o envio do
                             cadastro.*</label>
-                            <div>
-                                <input type="radio" name="aceitar termos" id="aceitar"
-                                    class="form-check-input" required>
-                                <label for="aceitar">Declaro a veracidade das informações prestadas e estou ciente de que o
-                                    envio incompleto dos documentos impossibilitará a validação da
-                                    inscrição.</label><br>
-                            </div>
+                        <div>
+                            <input type="radio" name="aceitar termos" id="aceitar" class="form-check-input" required>
+                            <label for="aceitar">Declaro a veracidade das informações prestadas e estou ciente de que o
+                                envio incompleto dos documentos impossibilitará a validação da
+                                inscrição.</label><br>
+                        </div>
                     </div>
 
 
