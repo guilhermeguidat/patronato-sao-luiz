@@ -5,5 +5,17 @@
 }
 
 .titulo-banner {
-    font-size: 5em;
+    font-size: 4.2em;
+}
+
+.icone-vermelho{
+    color: #ed3237;
+}
+
+.icone-azul{
+    color: #00afef;
+}
+
+.icone-verde {
+    color: #4fff89;
 }

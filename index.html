@@ -16,17 +16,15 @@
     <link rel="stylesheet" href="./src/styles/header.css">
     <link rel="stylesheet" href="./src/styles/content.css">
 
-    <script src="https://unpkg.com/scrollreveal"></script>
-
 </head>
 
 <body>
 
-    <header class="bg-white rounded m-2 fw-medium area-1">
+    <header class="bg-white rounded fw-medium">
         <nav class="navbar navbar-expand-lg container">
             <div class="container-fluid">
                 <a class="navbar-brand" href="./index.html">
-                    <img src="./src/images/logo.png" alt="Logo" width="100" height="100"
+                    <img src="./src/images/logo.png" alt="Logo" width="105" height="110"
                         class="d-inline-block align-text-top">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -39,13 +37,13 @@
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                                 aria-expanded="false">
-                                <p class="fw-medium">JOVEM APRENDIZ <i
+                                <p class="fw-medium fs-6">JOVEM APRENDIZ <i
                                         class="bi bi-chevron-down align-middle text-danger"
                                         style="font-size: 2rem;"></i></p>
                             </a>
                             <ul class="dropdown-menu">
                                 <li><a class="dropdown-item bi bi-person-vcard" href="./contratarJovemAprendiz.html">
-                                        COMO CONTRATAR UM JOVEM <br>APRENDIZ</a></li>
+                                        COMO CONTRATAR</a></li>
                                 <li>
                                     <hr class="dropdown-divider">
                                 </li>
@@ -61,7 +59,8 @@
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                                 aria-expanded="false">
-                                <p class="">ASSISTENCIA SOCIAL <i class="bi bi-chevron-down align-middle text-success"
+                                <p class="fs-6">ASSISTENCIA SOCIAL <i
+                                        class="bi bi-chevron-down align-middle text-success"
                                         style="font-size: 2rem;"></i></p>
                             </a>
                             <ul class="dropdown-menu">
@@ -76,7 +75,7 @@
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                                 aria-expanded="false">
-                                <p class="">SOBRE NOS <i class="bi bi-chevron-down align-middle text-primary"
+                                <p class="fs-6">SOBRE NOS <i class="bi bi-chevron-down align-middle text-primary"
                                         style="font-size: 2rem;"></i></p>
                             </a>
                             <ul class="dropdown-menu">
@@ -89,14 +88,16 @@
                             </ul>
                         </li>
                     </ul>
-                    <a class="bi bi-instagram banner-botao-vermelho mx-3" style="font-size: 2rem;"
-                        href="https://www.instagram.com/patronatosaoluiz/"></a>
-                    <a class="bi bi-facebook banner-botao-azul" style="font-size: 2rem;"
-                        href="https://www.facebook.com/patronatosaoluiz/?locale=pt_BR"></a>
-                    <a class="bi bi-whatsapp banner-botao-verde mx-3" style="font-size: 2rem;"
-                        href="https://api.whatsapp.com/send?phone=5537998467427"></a>
-                    <a class="bi bi-youtube banner-botao-vermelho mt-1" style="font-size: 2.5rem;"
-                        href="https://www.youtube.com/channel/UC_o2Sa24QDNYTC4AKpc5olg"></a>
+                    <div class="pb-3 d-flex align-items-center">
+                        <a class="bi bi-instagram icone-vermelho me-3" style="font-size: 2rem;"
+                            href="https://www.instagram.com/patronatosaoluiz/"></a>
+                        <a class="bi bi-facebook icone-azul" style="font-size: 2rem;"
+                            href="https://www.facebook.com/patronatosaoluiz/?locale=pt_BR"></a>
+                        <a class="bi bi-whatsapp icone-verde mx-3" style="font-size: 2rem;"
+                            href="https://api.whatsapp.com/send?phone=5537998467427"></a>
+                        <a class="bi bi-youtube icone-vermelho" style="font-size: 2.5rem;"
+                            href="https://www.youtube.com/channel/UC_o2Sa24QDNYTC4AKpc5olg"></a>
+                    </div>
                 </div>
             </div>
         </nav>
@@ -104,153 +105,111 @@
 
     <main>
 
-        <section class="area-2 container">
+        <section class="container">
 
             <div class="fullscreen d-flex align-items-center row text-center rounded-4"
                 style="background-image: url('./src/images/BANNER\ 1.png');">
                 <div>
-                    <h1 class="text-white titulo-banner">JOVEM APRENDIZ</h1>
-                    <p class="text-light fs-4 px-lg-5">Explore como construímos um ambiente acolhedor e inclusivo, onde
+                    <h1 class="text-white titulo-banner fw-bold">JOVEM APRENDIZ</h1>
+                    <p class="text-light fs-4 px-lg-5 fw-medium">Explore como construímos um ambiente acolhedor e inclusivo, onde
                         todos se
                         sintam parte de uma comunidade unida, e promovemos relações significativas e duradouras
                         entre os membros.</p>
-                    <a type="button" class="btn btn-light btn-lg text-danger mt-2 fs-4 fw-bold rounded-5 shadow"
+                    <a type="button"
+                        class="btn btn-light btn-lg text-danger mt-2 fs-4 fw-bold rounded-5 shadow banner-botao"
                         href="./formulario.html">Cadastrar agora</a>
                 </div>
             </div>
 
-        </section>
-
-        <section class="container">
-
-            <div class="plano-fundo-verde rounded-4 mt-5 area-3">
-                <div class="d-flex align-items-center">
-                    <div class="col-12 col-lg-4">
-                        <div class="px-md-4 p-3 banner-fonte">
-                            <h1 class="fs-1 mb-3 fw-bold text-center">Quer Fazer Parte?</h1>
-                            <div class="border-bottom border-black border-2"></div>
-                            <p class="fs-5 mt-3 fw-medium">Se voce tem entre 14 a 24 anos,
-                                e quer fazer parte do
-                                programa Jovem Aprendiz</p>
-                            <div class="text-center">
-                                <p class="fs-6 fw-light mt-5 banner-fonte-texto-menor">Saiba quais os requisitos
-                                    e como enviar todos os documentos para fazer sua inscrição.</p>
-                                <a class="btn btn-dark btn-lg rounded-5 fs-4 mt-3 banner-botao-verde shadow"
-                                    href="./sejaUmJovemAprendiz.html" role="button">Clique aqui</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-8 d-lg-block d-none">
-                        <img src="./src/images/BANNER 2.png" class="img-fluid rounded-end-4">
-                    </div>
+            <div class="plano-fundo-verde rounded-4 mt-5 d-flex align-items-center">
+                <div class="p-3 text-center col-lg-4">
+                    <h1 class="fs-1 mb-3 fw-bold text-center">Quer Fazer Parte?</h1>
+                    <div class="border-bottom border-black border-2"></div>
+                    <p class="fs-5 mt-3 fw-medium">Se você tem entre 14 a 24 anos, e quer fazer parte do programa Jovem
+                        Aprendiz</p>
+                    <p class="fs-6 fw-light mt-5 banner-fonte-texto-menor">Saiba quais os requisitos e como enviar todos
+                        os documentos para fazer sua inscrição.</p>
+                    <a class="btn btn-dark btn-lg rounded-5 fs-4 mt-3 banner-botao-verde shadow"
+                        href="./sejaUmJovemAprendiz.html" role="button">Clique aqui</a>
                 </div>
+                <img src="./src/images/BANNER 2.png" class="img-fluid rounded-end-4 col-md-8 d-lg-block d-none">
             </div>
 
-            <div class="plano-fundo-azul rounded-4 mt-2 area-3">
-                <div class="d-flex align-items-center">
-                    <div class="col-12 col-lg-4">
-                        <div class="px-md-4 p-3 banner-fonte">
-                            <h1 class="fs-1 mb-3 fw-bold text-center">Novo jeito de aprender</h1>
-                            <div class="border-bottom border-black border-2"></div>
-                            <p class="fs-6 mt-3 fw-medium">O Patronato São Luiz conta com uma
-                                equipe técnica qualificada focada na
-                                convivencia e no fortalecimento de
-                                vínculos, com atividades GRATUITAS no
-                                período da manhã e tarde, também com
-                                almoço, lanche e banho.
-                            </p>
-                            <div class="text-center">
-                                <p class="fs-6 fw-light mt-5 banner-fonte-texto-menor">Clique a baixo para ter mais
-                                    informações sobre.</p>
-                                <a class="btn btn-dark btn-lg rounded-5 fs-4 mt-3 banner-botao-azul shadow"
-                                    href="./quemSomos.html" role="button">Clique aqui</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-8 d-lg-block d-none">
-                        <img src="./src/images/BANNER 3.png" class="img-fluid rounded-end-4">
-                    </div>
+            <div class="plano-fundo-azul rounded-4 mt-2 d-flex align-items-center">
+                <div class="p-3 text-center col-lg-4">
+                    <h1 class="fs-1 mb-3 fw-bold text-center">Novo jeito de aprender</h1>
+                    <div class="border-bottom border-black border-2"></div>
+                    <p class="fs-5 mt-3 fw-medium">O Patronato São Luiz conta com uma equipe técnica qualificada focada
+                        na convivência e no fortalecimento de vínculos, com atividades GRATUITAS no período da manhã e
+                        tarde, também com almoço, lanche e banho.</p>
+                    <p class="fs-6 fw-light mt-5 banner-fonte-texto-menor">Clique abaixo para ter mais informações
+                        sobre.</p>
+                    <a class="btn btn-dark btn-lg rounded-5 fs-4 mt-3 banner-botao-azul shadow" href="./quemSomos.html"
+                        role="button">Clique aqui</a>
                 </div>
+                <img src="./src/images/BANNER 3.png" class="img-fluid rounded-end-4 col-md-8 d-lg-block d-none">
             </div>
 
-            <div class="plano-fundo-vermelho rounded-4 mt-2 area-3">
-                <div class="d-flex align-items-center">
-                    <div class="col-12 col-lg-4">
-                        <div class="px-md-4 p-3 banner-fonte">
-                            <h1 class="fs-1 mb-3 fw-bold text-center">Empresario</h1>
-                            <div class="border-bottom border-black border-2"></div>
-                            <p class="fs-5 mt-3 fw-medium text-center">Tenha um jovem aprendiz
-                                em sua empresa
-                            </p>
-                            <div class="text-center">
-                                <p class="fs-6 fw-light mt-5 banner-fonte-texto-menor">Clique a baixo para ter mais
-                                    informações sobre.</p>
-                                <a class="btn btn-dark btn-lg rounded-5 fs-4 mt-3 banner-botao-vermelho shadow"
-                                    href="./contratarJovemAprendiz.html" role="button">Clique aqui</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-8 d-lg-block d-none">
-                        <img src="./src/images/BANNER 4.png" class="img-fluid rounded-end-4">
-                    </div>
+            <div class="plano-fundo-vermelho rounded-4 mt-2 d-flex align-items-center">
+                <div class="p-3 text-center col-lg-4">
+                    <h1 class="fs-1 mb-3 fw-bold text-center">Empresário</h1>
+                    <div class="border-bottom border-black border-2"></div>
+                    <p class="fs-5 mt-3 fw-medium">Tenha um jovem aprendiz em sua empresa</p>
+                    <p class="fs-6 fw-light mt-5 banner-fonte-texto-menor">Clique abaixo para ter mais informações
+                        sobre.</p>
+                    <a class="btn btn-dark btn-lg rounded-5 fs-4 mt-3 banner-botao-vermelho shadow"
+                        href="./contratarJovemAprendiz.html" role="button">Clique aqui</a>
                 </div>
+                <img src="./src/images/BANNER 4.png" class="img-fluid rounded-end-4 col-md-8 d-lg-block d-none">
             </div>
 
-            <h1 class="text-center m-5 area-6 area-4">Atravez do <b>nosso trabalho</b> nós tornamos agentes
-                na busca pela <b>integração da sociedade</b>
-                formiguense
+            <h1 class="text-center m-5 area-6">Através do <b>nosso trabalho</b> nós tornamos agentes na busca pela
+                <b>integração da sociedade</b> formiguense
             </h1>
 
-            <div class="plano-fundo-roxo rounded-4 mt-2 text-light area-4">
-                <div class="d-flex align-items-center">
-                    <div class="col-12 col-lg-4">
-                        <div class="px-md-4 p-3 banner-fonte">
-                            <h1 class="fs-1 mb-3 fw-bold text-center">Você pode ajudar</h1>
-                            <div class="border-bottom border-light border-2"></div>
-                            <p class="fs-5 mt-3 fw-medium">Você pode ajudar o Patronato São Luiz,
-                                doando:
-                                Alimentos, roupas, livros, materiais
-                                escolares e outros.
-                                Você pode também ajudar contribuindo
-                                com um pix.
-                            </p>
-                            <div class="text-center">
-                                <p class="fs-6 fw-light mt-5 banner-fonte-texto-menor">Para contribuir pelo pix, gere um
-                                    QR CODE abaixo</p>
-                                <a class="btn btn-light btn-lg rounded-5 fs-4 mt-3 banner-botao-roxo shadow"
-                                    href="./vocePodeAjudar.html" role="button">Ajudar com PIX</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-8 d-lg-block d-none">
-                        <img src="./src/images/BANNER 5.png" class="img-fluid rounded-end-4">
-                    </div>
+            <div class="plano-fundo-roxo rounded-4 mt-2 d-flex align-items-center text-light">
+                <div class="p-3 text-center col-lg-4">
+                    <h1 class="fs-1 mb-3 fw-bold text-center">Você pode ajudar</h1>
+                    <div class="border-bottom border-light border-2"></div>
+                    <p class="fs-5 mt-3 fw-medium">Você pode ajudar o Patronato São Luiz, doando: Alimentos, roupas,
+                        livros, materiais escolares e outros. Você pode também ajudar contribuindo com um pix.</p>
+                    <p class="fs-6 fw-light mt-5 banner-fonte-texto-menor">Para contribuir pelo pix, gere um QR CODE
+                        abaixo</p>
+                    <a class="btn btn-light btn-lg rounded-5 fs-4 mt-3 banner-botao-roxo shadow"
+                        href="./vocePodeAjudar.html" role="button">Ajudar com PIX</a>
                 </div>
+                <img src="./src/images/BANNER 5.png" class="img-fluid rounded-end-4 col-md-8 d-lg-block d-none">
             </div>
 
-            <h1 class="text-center m-5 area-4">Somos uma entidade <b>100% sem fins lucrativos</b>
+            <h1 class="text-center m-5">Somos uma entidade <b>100% sem fins lucrativos</b>
             </h1>
 
-            <div class="rounded-4 d-lg-flex mb-4 area-4">
+            <div class="rounded-4 d-lg-flex mb-4">
                 <section>
                     <a href="./parceiros.html" class="text-decoration-none text-reset">
                         <p class="fs-1 fw-bold text-center m-2">Parceiros</p>
                     </a>
                     <div class="text-center p-3">
-                        <a href="./parceiros.html"><img src="./src/images/LOGOS/ESCOTEIROS.png" class="img-fluid" width="200" height="200"></a>
-                        <a href="./parceiros.html"><img src="./src/images/LOGOS/GLOBOAVES.png" class="img-fluid m-2" width="200"
+                        <a href="./parceiros.html"><img src="./src/images/LOGOS/ESCOTEIROS.png" class="img-fluid"
+                                width="200" height="200"></a>
+                        <a href="./parceiros.html"><img src="./src/images/LOGOS/GLOBOAVES.png" class="img-fluid m-2"
+                                width="200" height="200"></a>
+                        <a href="./parceiros.html"><img src="./src/images/LOGOS/JUAD.png" class="img-fluid" width="200"
                                 height="200"></a>
-                        <a href="./parceiros.html"><img src="./src/images/LOGOS/JUAD.png" class="img-fluid" width="200" height="200"></a>
-                        <a href="./parceiros.html"><img src="./src/images/LOGOS/MAÇONARIA.png" class="img-fluid m-2" width="200"
-                                height="200"></a>
-                        <a href="./parceiros.html"><img src="./src/images/LOGOS/POLICIA.png" class="img-fluid" width="200" height="200"></a>
-                        <a href="./parceiros.html"><img src="./src/images/LOGOS/PREFEITURA.png" class="img-fluid m-2" width="200"
-                                height="200"></a>
-                        <a href="./parceiros.html"><img src="./src/images/LOGOS/TATAMEDO BEM.png" class="img-fluid" width="200"
-                                height="200"></a>
-                        <a href="./parceiros.html"><img src="./src/images/LOGOS/TG.png" class="img-fluid m-2" width="200" height="200"></a>
-                        <a href="./parceiros.html"><img src="./src/images/LOGOS/UNIFOR.png" class="img-fluid" width="200" height="200"></a>
-                        <a href="./parceiros.html"><img src="./src/images/LOGOS/nova_logo.png" class="img-fluid" width="200" height="200"></a>
+                        <a href="./parceiros.html"><img src="./src/images/LOGOS/MAÇONARIA.png" class="img-fluid m-2"
+                                width="200" height="200"></a>
+                        <a href="./parceiros.html"><img src="./src/images/LOGOS/POLICIA.png" class="img-fluid"
+                                width="200" height="200"></a>
+                        <a href="./parceiros.html"><img src="./src/images/LOGOS/PREFEITURA.png" class="img-fluid m-2"
+                                width="200" height="200"></a>
+                        <a href="./parceiros.html"><img src="./src/images/LOGOS/TATAMEDO BEM.png" class="img-fluid"
+                                width="200" height="200"></a>
+                        <a href="./parceiros.html"><img src="./src/images/LOGOS/TG.png" class="img-fluid m-2"
+                                width="200" height="200"></a>
+                        <a href="./parceiros.html"><img src="./src/images/LOGOS/UNIFOR.png" class="img-fluid"
+                                width="200" height="200"></a>
+                        <a href="./parceiros.html"><img src="./src/images/LOGOS/nova_logo.png" class="img-fluid"
+                                width="200" height="200"></a>
                     </div>
                 </section>
             </div>
@@ -259,7 +218,7 @@
 
     </main>
 
-    <footer class="footer container plano-fundo-vermelho text-light rounded-top-4 text-xl-start text-center area-5 ">
+    <footer class="footer container plano-fundo-vermelho text-light rounded-top-4 text-xl-start text-center">
         <div class="footer-inner d-sm-flex justify-content-center p-5">
             <div class="footer-column">
                 <h3 class="fs-2 fw-semibold">Jovem Aprendiz</h3>
@@ -315,8 +274,6 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
-
-    <script src="./src/js/script.js"></script>
 
 </body>
 
