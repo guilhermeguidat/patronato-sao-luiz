@@ -43,46 +43,49 @@ body {
 }
 
 /*Botao animação*/
-.btn-light:hover, .btn-dark:hover, .wpp-botao:hover {
+.btn-light:hover,
+.btn-dark:hover,
+.wpp-botao:hover {
     transform: scale(1.1);
-    transition: transform 0.3s ease;  
+    transition: transform 0.3s ease;
 }
 
-.btn-light, .btn-dark, .wpp-botao:hover  {
+.btn-light,
+.btn-dark,
+.wpp-botao:hover {
     transition: transform 0.3s ease;
 }
 
 .banner-botao-verde:hover {
-    background-color: #212529; 
+    background-color: #212529;
     color: #4fff89;
 }
 
 .banner-botao-azul:hover {
-    background-color: #212529; 
+    background-color: #212529;
     color: #00afef;
 }
 
 .banner-botao-vermelho:hover {
-    background-color: #212529; 
+    background-color: #212529;
     color: #ed3237;
 }
 
 .banner-botao-roxo:hover {
-    background-color: #f6f6f6; 
+    background-color: #f6f6f6;
     color: #342b4b;
 }
 
 .banner-botao-roxo:hover {
-    background-color: #f6f6f6; 
+    background-color: #f6f6f6;
     color: #342b4b;
 }
 
 .banner-botao:hover {
-    background-color: #f6f6f6; 
+    background-color: #f6f6f6;
 }
 
 .botao-form:hover {
-    background-color: #ed3237; 
+    background-color: #ed3237;
     color: #f6f6f6;
 }
-

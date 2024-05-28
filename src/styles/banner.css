@@ -2,17 +2,19 @@
     height: 100vh;
     background-size: cover;
     background-position: center;
+    margin-left: 0.1px; 
+    margin-right: 0.1px;
 }
 
 .titulo-banner {
     font-size: 4.2em;
 }
 
-.icone-vermelho{
+.icone-vermelho {
     color: #ed3237;
 }
 
-.icone-azul{
+.icone-azul {
     color: #00afef;
 }
 
